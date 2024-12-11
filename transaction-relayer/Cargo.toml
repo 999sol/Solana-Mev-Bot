@@ -1,0 +1,44 @@
+[package]
+name = "jito-transaction-relayer"
+description = "Jito relayer entrypoint"
+version = { workspace = true }
+authors = { workspace = true }
+homepage = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+publish = false
+
+[dependencies]
+bincode = { workspace = true }
+clap = { workspace = true }
+crossbeam-channel = { workspace = true }
+dashmap = { workspace = true }
+env_logger = { workspace = true }
+hostname = { workspace = true }
+itertools = { workspace = true }
+jito-block-engine = { workspace = true }
+explorer_engine = { workspace = true }
+jito-core = { workspace = true }
+jito-protos = { workspace = true }
+jito-relayer = { workspace = true }
+jito-relayer-web = { workspace = true }
+jito-rpc = { workspace = true }
+jwt = { workspace = true }
+log = { workspace = true }
+openssl = { workspace = true }
+prost-types = { workspace = true }
+serde = { workspace = true }
+serde_yaml = { workspace = true }
+solana-address-lookup-table-program = { workspace = true }
+solana-client = { workspace = true }
+solana-core = { workspace = true }
+solana-metrics = { workspace = true }
+solana-net-utils = { workspace = true }
+solana-perf = { workspace = true }
+solana-program = { workspace = true }
+solana-sdk = { workspace = true }
+solana-validator = { workspace = true }
+tikv-jemallocator = { workspace = true }
+tokio = { workspace = true }
+tokio-stream = { workspace = true }
+tonic = { workspace = true }

@@ -1,0 +1,36 @@
+[package]
+name = "jito-relayer"
+description = "Jito relayer code"
+version = { workspace = true }
+authors = { workspace = true }
+homepage = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+publish = false
+
+[dependencies]
+chrono = { workspace = true }
+crossbeam-channel = { workspace = true }
+dashmap = { workspace = true }
+ed25519-dalek = { workspace = true }
+histogram = { workspace = true }
+jito-core = { workspace = true }
+jito-protos = { workspace = true }
+jito-rpc = { workspace = true }
+jwt = { workspace = true }
+keyed_priority_queue = { workspace = true }
+log = { workspace = true }
+openssl = { workspace = true }
+prost-types = { workspace = true }
+rand = { workspace = true }
+serde = { workspace = true }
+sha2 = { workspace = true }
+solana-client = { workspace = true }
+solana-core = { workspace = true }
+solana-metrics = { workspace = true }
+solana-perf = { workspace = true }
+solana-sdk = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+tokio-stream = { workspace = true }
+tonic = { workspace = true }

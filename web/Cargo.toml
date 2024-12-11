@@ -1,0 +1,19 @@
+[package]
+name = "jito-relayer-web"
+description = "Jito relayer web server"
+version = { workspace = true }
+authors = { workspace = true }
+homepage = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+publish = false
+
+[dependencies]
+axum = { workspace = true }
+jito-relayer = { workspace = true }
+log = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+solana-sdk = { workspace = true }
+tokio = { workspace = true }
+tower = { workspace = true }

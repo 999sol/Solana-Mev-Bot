@@ -1,0 +1,22 @@
+[package]
+name = "jito-packet-blaster"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bincode = { workspace = true }
+clap = { workspace = true }
+env_logger = { workspace = true }
+futures-util = { workspace = true }
+itertools = { workspace = true }
+log = { workspace = true }
+once_cell = { workspace = true }
+quinn = { workspace = true }
+rustls = { workspace = true }
+solana-client = { workspace = true }
+solana-net-utils = { workspace = true }
+solana-perf = { workspace = true }
+solana-sdk = { workspace = true }
+solana-streamer = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }

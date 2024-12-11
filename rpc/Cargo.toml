@@ -1,0 +1,17 @@
+[package]
+name = "jito-rpc"
+description = "Jito relayer RPC code"
+version = { workspace = true }
+authors = { workspace = true }
+homepage = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+publish = false
+
+[dependencies]
+crossbeam-channel = { workspace = true }
+dashmap = { workspace = true }
+log = { workspace = true }
+solana-client = { workspace = true }
+solana-metrics = { workspace = true }
+solana-sdk = { workspace = true }

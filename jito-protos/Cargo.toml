@@ -1,0 +1,21 @@
+[package]
+name = "jito-protos"
+description = "Jito relayer protobuf code"
+version = { workspace = true }
+authors = { workspace = true }
+homepage = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+publish = false
+
+[dependencies]
+bytes = { workspace = true }
+prost = { workspace = true }
+prost-types = { workspace = true }
+solana-perf = { workspace = true }
+solana-sdk = { workspace = true }
+tonic = { workspace = true }
+
+[build-dependencies]
+protobuf-src = { workspace = true }
+tonic-build = { workspace = true }

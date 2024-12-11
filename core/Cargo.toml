@@ -1,0 +1,31 @@
+[package]
+name = "jito-core"
+description = "Jito relayer core code"
+version = { workspace = true }
+authors = { workspace = true }
+homepage = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+publish = false
+
+[dependencies]
+bincode = { workspace = true }
+crossbeam-channel = { workspace = true }
+dashmap = { workspace = true }
+jito-rpc = { workspace = true }
+lazy_static = { workspace = true }
+log = { workspace = true }
+rayon = { workspace = true }
+solana-client = { workspace = true }
+solana-core = { workspace = true }
+solana-gossip = { workspace = true }
+solana-measure = { workspace = true }
+solana-metrics = { workspace = true }
+solana-perf = { workspace = true }
+solana-rayon-threadlimit = { workspace = true }
+solana-runtime = { workspace = true }
+solana-sdk = { workspace = true }
+solana-streamer = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+tokio-stream = { workspace = true }

@@ -1,0 +1,25 @@
+[package]
+name = "jito-block-engine"
+description = "Relayer Block Engine Client"
+version = { workspace = true }
+authors = { workspace = true }
+homepage = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+publish = false
+
+[dependencies]
+cached = { workspace = true }
+dashmap = { workspace = true }
+jito-core = { workspace = true }
+jito-protos = { workspace = true }
+log = { workspace = true }
+prost-types = { workspace = true }
+solana-core = { workspace = true }
+solana-metrics = { workspace = true }
+solana-perf = { workspace = true }
+solana-sdk = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+tokio-stream = { workspace = true }
+tonic = { workspace = true }
